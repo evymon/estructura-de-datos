@@ -9,6 +9,8 @@ namespace JuegoDeDamas
 
         // pa guardar la direccion 
         static int e1, m1, e2, m2;
+
+        static bool[,] resaltadas = new bool[8, 8]; //casillas a donde se puede mover la ficha elegida
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8; //este va a permitir mostrar bien para el tablero
@@ -98,6 +100,10 @@ namespace JuegoDeDamas
                     {
                         Console.BackgroundColor = ConsoleColor.Gray;
                     }
+                    if (resaltadas[e, m])//si es una casilla a donde se puede avanzar se pinta de verde
+                    {
+                        Console.BackgroundColor = ConsoleColor.Green;
+                    }
 
                     char ficha = tablero[e, m];
                     if (ficha == ' ')//si no hay una ficha se va a quedar vacia
@@ -154,7 +160,7 @@ namespace JuegoDeDamas
                 {
                     Console.WriteLine("tienes que comer una ficha");
                 }
-                Console.Write("escribe tu movimiento (ejemplo: C3 D4): ");
+                Console.Write("escribe la ficha que quieres mover (ejemplo: C3): ");
                 if (!LeerMovimiento())//leey revisa lo que escribio el usuaio
                 {
                     mensaje = "eso no se entiende, escríbelo como C3 D4";
@@ -177,6 +183,19 @@ namespace JuegoDeDamas
                 {
                     mensaje = "tienes que seguir comiendo con la misma ficha";
                     continue;
+                }
+                if (Math.Abs(diferenciaE) == 1 && Math.Abs(diferenciaM) == 1 &&//si escribio la casilla donde esta la ficha rival
+                    EsDeJugador(tablero[e2, m2], Contrario(turno)))
+                {
+                    int eAtras = e2 + diferenciaE;//la casilla que esta detras de la ficha rival
+                    int mAtras = m2 + diferenciaM;
+                    if (DentroDelTablero(eAtras, mAtras) && tablero[eAtras, mAtras] == ' ')
+                    {
+                        e2 = eAtras;//se cambia el destino para que brinque y se la coma
+                        m2 = mAtras;
+                        diferenciaE = diferenciaE * 2;
+                        diferenciaM = diferenciaM * 2;
+                    }
                 }
                 if (tablero[e2, m2] != ' ')//para asegurar que donde queremos ir esta libre
                 {
@@ -247,6 +266,33 @@ namespace JuegoDeDamas
                 return false;
             }
             texto = texto.Replace(" ", "").ToUpper();//quita espacios y puede apsar a mayusculas
+            if (texto.Length == 2)//si solo escribio la ficha, se le muestra a donde puede avanzar
+            {
+                m1 = texto[0] - 'A';
+                e1 = 8 - (texto[1] - '0');
+                if (!DentroDelTablero(e1, m1))
+                {
+                    return false;
+                }
+                if (!EsDeJugador(tablero[e1, m1], turno))//si no es su ficha, luego le sale el mensaje
+                {
+                    e2 = e1;
+                    m2 = m1;
+                    return true;
+                }
+                MarcarDestinos(e1, m1);
+                DibujarTablero();//se dibuja el tablero con las casillas resaltadas
+                Array.Clear(resaltadas, 0, resaltadas.Length);//se quitan para el siguiente dibujo
+
+                Console.WriteLine("turno de " + Nombre(turno));
+                Console.Write("¿a dónde la quieres mover? (casillas verdes): ");
+                string? destino = Console.ReadLine();
+                if (destino == null)
+                {
+                    return false;
+                }
+                texto = texto + destino.Replace(" ", "").ToUpper();//se junta para que quede como C3D4
+            }
             if (texto.Length != 4)//despues de limpiar debe tener 4 caracteres
             {
                 return false;
@@ -277,6 +323,35 @@ namespace JuegoDeDamas
             tablero[e2, m2] = ficha;//se pone la fichita en su nueva posicion
             tablero[e1, m1] = ' ';//se vacia la casilla de donde venia
             return seHizoDama;
+        }
+        static void MarcarDestinos(int e, int m)//marca las casillas a donde puede avanzar la ficha
+        {
+            char ficha = tablero[e, m];
+            bool debeCapturar = HayCapturas(turno);
+            for (int dE = -1; dE <= 1; dE += 2)//se revisan las diagonales
+            {
+                for (int dM = -1; dM <= 1; dM += 2)
+                {
+                    if (!PuedeIrEnEsaDireccion(ficha, dE))
+                    {
+                        continue;
+                    }
+                    int eSalto = e + 2 * dE;
+                    int mSalto = m + 2 * dM;
+                    if (DentroDelTablero(eSalto, mSalto) &&//si puede comer se marca la casilla donde caeria
+                        EsDeJugador(tablero[e + dE, m + dM], Contrario(turno)) &&
+                        tablero[eSalto, mSalto] == ' ')
+                    {
+                        resaltadas[eSalto, mSalto] = true;
+                    }
+                    else if (!debeCapturar &&//si no hay que comer, se marca la casilla de al lado
+                             DentroDelTablero(e + dE, m + dM) &&
+                             tablero[e + dE, m + dM] == ' ')
+                    {
+                        resaltadas[e + dE, m + dM] = true;
+                    }
+                }
+            }
         }
         static bool PuedeCapturar(int e, int m)//checa si una ficha piede comerse a otra
         {
