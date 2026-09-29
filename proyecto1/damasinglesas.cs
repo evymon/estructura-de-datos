@@ -1,4 +1,4 @@
-using System; //damas inglesa
+using System; 
 
 namespace JuegoDeDamas
 {
