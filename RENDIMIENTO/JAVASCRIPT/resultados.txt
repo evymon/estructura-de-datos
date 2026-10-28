@@ -1,0 +1,157 @@
+PRUEBAS DE RENDIMIENTO
+Lenguaje: JavaScript
+Limite por prueba: 60 segundos
+==============================================
+
+Metodo: Burbuja
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.002667 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.004042 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000153 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.007344 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.009345 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000021 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 1.249247 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.592160 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.000160 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 22.05%
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 78.97%
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.000974 s
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.46%
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.51%
+Lenguaje: JavaScript | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.007407 s
+
+Metodo: Insercion
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.003129 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.001615 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.001028 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.002516 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.009856 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000317 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.276082 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.389919 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.003532 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 12.287170 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100000 | Tipo: Inverso | Tiempo: 24.215896 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.093654 s
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 19.99%
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 14.67%
+Lenguaje: JavaScript | Metodo: Insercion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.926147 s
+
+Metodo: Seleccion
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.005089 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000890 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.153867 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.007682 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.026942 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.007365 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 2.512573 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 1.862849 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 1.457347 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 56.707240 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 47.52%
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 26.534641 s
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.72%
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.49%
+Lenguaje: JavaScript | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.38%
+
+Metodo: Quick Sort
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.034309 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.337568 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.006277 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.011307 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.357145 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.554753 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.659223 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 2.933149 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 1.545397 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.733671 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 29.61%
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 49.92%
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 3.609002 s
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.75%
+Lenguaje: JavaScript | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.42%
+
+Metodo: Merge Sort
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.003446 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000823 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000753 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.003786 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.002946 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.004654 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.078478 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.019213 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.026549 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.432174 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.254423 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.329605 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 2.367874 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 2.134631 s
+Lenguaje: JavaScript | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 1.062852 s
+
+Metodo: Heap Sort
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.004378 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000212 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000167 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.001803 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.001291 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.001150 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.013322 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.012214 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.009476 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.146651 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.223437 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.169814 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 2.587090 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 1.334360 s
+Lenguaje: JavaScript | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.781873 s
+
+Metodo: Shell Sort
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000777 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000156 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000246 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.001830 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.001393 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000091 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.007239 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.004248 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.002616 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.064497 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.026038 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.022955 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.964930 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.646228 s
+Lenguaje: JavaScript | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 1.502941 s
+
+Metodo: Bucket Sort
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.006629 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.041230 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.003214 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.010215 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.026008 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.002931 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.054560 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.136305 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.073293 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.736882 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.555016 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.436235 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 5.196003 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 5.070360 s
+Lenguaje: JavaScript | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 5.025954 s
+
+Metodo: Radix Sort
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.008031 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000866 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000661 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.134719 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.001374 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.061262 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.015449 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.013414 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.014666 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.186551 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.199109 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.569873 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 1.810380 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 1.802194 s
+Lenguaje: JavaScript | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 1.376326 s

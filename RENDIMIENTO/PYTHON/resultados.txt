@@ -1,0 +1,157 @@
+PRUEBAS DE RENDIMIENTO
+Lenguaje: Python
+Limite por prueba: 60 segundos
+==============================================
+
+Metodo: Burbuja
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.001938 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.126354 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 14.427137 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 3.19%
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.03%
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.001651 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.169492 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 10000 | Tipo: Inverso | Tiempo: 13.401060 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 3.64%
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.03%
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000040 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000240 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.001359 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.006775 s
+Lenguaje: Python | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.074870 s
+
+Metodo: Insercion
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000526 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.030707 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 3.510159 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 40.48%
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 3.76%
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000709 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.063015 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 6.580476 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 23.74%
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 3.02%
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000047 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000778 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.003466 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.143023 s
+Lenguaje: Python | Metodo: Insercion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.395136 s
+
+Metodo: Seleccion
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000846 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.033068 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 3.428978 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 7.68%
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.07%
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.001014 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.028471 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 3.238402 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 7.50%
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.07%
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000630 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.064929 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 3.479672 s
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 8.09%
+Lenguaje: Python | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.09%
+
+Metodo: Quick Sort
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000470 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.004732 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.025800 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.414914 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 4.075636 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.001583 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.060082 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 4.813265 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 6.99%
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.07%
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.002016 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.059727 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 7.503861 s
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 5.06%
+Lenguaje: Python | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.05%
+
+Metodo: Merge Sort
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000998 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.004503 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.053138 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.585290 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 7.521189 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000466 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.004895 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.044512 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.536373 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 6.210085 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.002097 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.005816 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.044791 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.584923 s
+Lenguaje: Python | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 6.314951 s
+
+Metodo: Heap Sort
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000641 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.007890 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.069660 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.888476 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 9.993452 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000601 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.006714 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.048634 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.666723 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 8.529848 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000459 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.004221 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.068616 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.719280 s
+Lenguaje: Python | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 8.382089 s
+
+Metodo: Shell Sort
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000285 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.005555 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.084523 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 1.251265 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 19.524827 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000287 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.005176 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.060018 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.950466 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 9.974755 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000472 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.003627 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.048917 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.641127 s
+Lenguaje: Python | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 8.563738 s
+
+Metodo: Bucket Sort
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000292 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.003381 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.054242 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.146056 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 2.165077 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000253 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.001377 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.042276 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.117531 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 1.896006 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000158 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.001517 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.009161 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.219084 s
+Lenguaje: Python | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 1.537297 s
+
+Metodo: Radix Sort
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000851 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.003853 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.095072 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.384278 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 5.462362 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000316 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.003135 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.061753 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.404813 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 4.609502 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000404 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.004469 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.035559 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.387481 s
+Lenguaje: Python | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 4.272157 s

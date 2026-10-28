@@ -1,0 +1,157 @@
+PRUEBAS DE RENDIMIENTO
+Lenguaje: C#
+Limite por prueba: 60 segundos
+==============================================
+
+Metodo: Burbuja
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.001316 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000061 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000005 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.007506 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.006927 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000011 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.437725 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.458226 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.000081 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 39.826147 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100000 | Tipo: Inverso | Tiempo: 30.825080 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.000915 s
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.88%
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.50%
+Lenguaje: C# | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.023121 s
+
+Metodo: Insercion
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.044046 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000555 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000016 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.004349 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.013684 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.016307 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.447983 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.820120 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.001210 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 56.607400 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 81.52%
+Lenguaje: C# | Metodo: Insercion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.069117 s
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 7.29%
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 4.71%
+Lenguaje: C# | Metodo: Insercion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.467024 s
+
+Metodo: Seleccion
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.002814 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000102 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.002314 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.011302 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.008969 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.124087 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 1.436746 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 1.334777 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 1.157772 s
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 25.90%
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 22.93%
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 33.82%
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.27%
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.33%
+Lenguaje: C# | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.37%
+
+Metodo: Quick Sort
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.625674 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000379 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000502 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.001918 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.297103 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.098708 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.090679 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 5.210012 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 4.732824 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.759294 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 31.39%
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 8.96%
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 1.194701 s
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.08%
+Lenguaje: C# | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 0.17%
+
+Metodo: Merge Sort
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.154519 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000240 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000235 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.006323 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.002169 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.007939 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.203115 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.104493 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.121634 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 1.416344 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.523430 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.377249 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 8.034419 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 4.223193 s
+Lenguaje: C# | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 5.258650 s
+
+Metodo: Heap Sort
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.004570 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000226 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000231 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.002661 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.002138 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.003841 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.246129 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.136161 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.041853 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.748195 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.577710 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 1.502780 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 9.134176 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 13.380262 s
+Lenguaje: C# | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 8.457509 s
+
+Metodo: Shell Sort
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.001024 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000400 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000011 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000440 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000211 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000192 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.008455 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.005483 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.002234 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.177831 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.067877 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.066415 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 3.040436 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.943639 s
+Lenguaje: C# | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.593204 s
+
+Metodo: Bucket Sort
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.011520 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000070 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000117 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000855 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000550 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.002287 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.005838 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.004052 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.027268 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.230898 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.194535 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.384265 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 15.989631 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 10.392036 s
+Lenguaje: C# | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 7.619977 s
+
+Metodo: Radix Sort
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.007441 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000170 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000093 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.002282 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.001945 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000937 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.009893 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.011008 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.177193 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 1.652720 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 1.093721 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.834868 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 10.484070 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 2.950150 s
+Lenguaje: C# | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 3.606031 s

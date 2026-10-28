@@ -11,6 +11,8 @@ namespace JuegoDeDamas
         static int e1, m1, e2, m2;
 
         static bool[,] resaltadas = new bool[8, 8]; //casillas a donde se puede mover la ficha elegida
+
+        static int cursorE = 2, cursorM = 1; //donde esta el cuadrito azul para elegir la ficha
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8; //este va a permitir mostrar bien para el tablero
@@ -49,7 +51,8 @@ namespace JuegoDeDamas
             Console.WriteLine();
             Console.WriteLine("como jugar:");
             Console.WriteLine("- el juego es para dos, empezando por las fichas negras y luego las blancas");
-            Console.WriteLine("- se va a mover escribiendo la casilla de origen y la de destino. ejemplo: C3 D4");
+            Console.WriteLine("- con las flechas mueves el cuadrito azul y con ENTER eliges tu ficha");
+            Console.WriteLine("- para moverla usas: Inicio (arriba izq), Re Pág (arriba der), Fin (abajo izq), Av Pág (abajo der)");
             Console.WriteLine("- las fichas normales solo pueden avanzar en diagonal");
             Console.WriteLine("- para comer una ficha, se tiene que dar un saltito en diagonal");
             Console.WriteLine("- si puedes comer, es obligatorio");
@@ -104,6 +107,10 @@ namespace JuegoDeDamas
                     {
                         Console.BackgroundColor = ConsoleColor.Green;
                     }
+                    if (e == cursorE && m == cursorM)//el cuadrito azul que se mueve con las flechas
+                    {
+                        Console.BackgroundColor = ConsoleColor.Cyan;
+                    }
 
                     char ficha = tablero[e, m];
                     if (ficha == ' ')//si no hay una ficha se va a quedar vacia
@@ -145,25 +152,13 @@ namespace JuegoDeDamas
 
             while (!turnoTerminado)
             {
-                DibujarTablero();
-                if (mensaje != "")//va a mostrar si el moviniento anterior fue incorrecto o no
-                {
-                    Console.WriteLine(mensaje);
-                    mensaje = "";
-                }
+                bool debeCapturar = HayCapturas(turno);// va a checar si hay alguna captura
 
-                bool debeCapturar = HayCapturas(turno);// va a checar si hay alguna captura 
-
-                Console.WriteLine("turno de " + Nombre(turno));
-
-                if (debeCapturar)
+                bool seMovio = LeerMovimiento(mensaje);//aqui se elige la ficha y a donde moverla con el teclado
+                mensaje = "";
+                if (!seMovio)
                 {
-                    Console.WriteLine("tienes que comer una ficha");
-                }
-                Console.Write("escribe la ficha que quieres mover (ejemplo: C3): ");
-                if (!LeerMovimiento())//leey revisa lo que escribio el usuaio
-                {
-                    mensaje = "eso no se entiende, escríbelo como C3 D4";
+                    mensaje = "elige otra vez tu ficha";
                     continue;
                 }
 
@@ -241,6 +236,8 @@ namespace JuegoDeDamas
                     tablero[eMedio, mMedio] = ' ';// bai a la fichita que fue capturada
 
                     bool seCoronoLaFicha = MoverFicha();//se mueve la fichita
+                    cursorE = e2;//el cuadrito azul se va con la ficha por si tiene que seguir comiendo
+                    cursorM = m2;
                     if (!seCoronoLaFicha && PuedeCapturar(e2, m2))//si no se hizo dama puede comerse a otra
                     {
                         filaObligada = e2;
@@ -257,54 +254,106 @@ namespace JuegoDeDamas
                 }
             }
         }
-        static bool LeerMovimiento()//lee el movimiento del usuario
+        static bool LeerMovimiento(string mensaje)//lee el movimiento del usuario con las teclas
         {
-            string? texto = Console.ReadLine();
-
-            if (texto == null)
+            bool fichaElegida = false;
+            while (!fichaElegida)//primero se mueve el cuadrito azul con las flechas hasta la ficha
             {
-                return false;
-            }
-            texto = texto.Replace(" ", "").ToUpper();//quita espacios y puede apsar a mayusculas
-            if (texto.Length == 2)//si solo escribio la ficha, se le muestra a donde puede avanzar
-            {
-                m1 = texto[0] - 'A';
-                e1 = 8 - (texto[1] - '0');
-                if (!DentroDelTablero(e1, m1))
+                DibujarTablero();
+                if (mensaje != "")//va a mostrar si el moviniento anterior fue incorrecto o no
                 {
-                    return false;
+                    Console.WriteLine(mensaje);
                 }
-                if (!EsDeJugador(tablero[e1, m1], turno))//si no es su ficha, luego le sale el mensaje
-                {
-                    e2 = e1;
-                    m2 = m1;
-                    return true;
-                }
-                MarcarDestinos(e1, m1);
-                DibujarTablero();//se dibuja el tablero con las casillas resaltadas
-                Array.Clear(resaltadas, 0, resaltadas.Length);//se quitan para el siguiente dibujo
-
                 Console.WriteLine("turno de " + Nombre(turno));
-                Console.Write("¿a dónde la quieres mover? (casillas verdes): ");
-                string? destino = Console.ReadLine();
-                if (destino == null)
+                if (HayCapturas(turno))
                 {
-                    return false;
+                    Console.WriteLine("tienes que comer una ficha");
                 }
-                texto = texto + destino.Replace(" ", "").ToUpper();//se junta para que quede como C3D4
+                Console.WriteLine("mueve el cuadrito azul con las flechas y presiona ENTER para elegir tu ficha");
+
+                ConsoleKey tecla = Console.ReadKey(true).Key;//lee la tecla sin mostrarla
+                if (tecla == ConsoleKey.UpArrow && cursorE > 0)
+                {
+                    cursorE--;
+                }
+                else if (tecla == ConsoleKey.DownArrow && cursorE < 7)
+                {
+                    cursorE++;
+                }
+                else if (tecla == ConsoleKey.LeftArrow && cursorM > 0)
+                {
+                    cursorM--;
+                }
+                else if (tecla == ConsoleKey.RightArrow && cursorM < 7)
+                {
+                    cursorM++;
+                }
+                else if (tecla == ConsoleKey.Enter)
+                {
+                    fichaElegida = true;
+                }
             }
-            if (texto.Length != 4)//despues de limpiar debe tener 4 caracteres
+
+            e1 = cursorE;//la ficha elegida es donde quedo el cuadrito azul
+            m1 = cursorM;
+            if (!EsDeJugador(tablero[e1, m1], turno))//si no es su ficha, luego le sale el mensaje
             {
-                return false;
+                e2 = e1;
+                m2 = m1;
+                return true;
             }
 
-            m1 = texto[0] - 'A';//ayuda a convertir las letras de las columnas 
-            m2 = texto[2] - 'A';
-            e1 = 8 - (texto[1] - '0');//igual pero se convierte los numeros para q se puedan adaptar al tablero
-            e2 = 8 - (texto[3] - '0');
+            MarcarDestinos(e1, m1);
+            DibujarTablero();//se dibuja el tablero con las casillas verdes
+            QuitarResaltadas();//se quitan para el siguiente dibujo
 
-            return DentroDelTablero(e1, m1) &&//para confirmar que si este la posicion en el tablero
-                   DentroDelTablero(e2, m2);
+            Console.WriteLine("turno de " + Nombre(turno));
+            Console.WriteLine("¿a dónde la quieres mover? (casillas verdes)");
+            Console.WriteLine("Inicio = arriba izquierda    Re Pág = arriba derecha");
+            Console.WriteLine("Fin    = abajo izquierda     Av Pág = abajo derecha");
+            Console.WriteLine("cualquier otra tecla = elegir otra ficha");
+
+            ConsoleKey direccion = Console.ReadKey(true).Key;
+            int dE = 0;//para donde se mueve la fila
+            int dM = 0;//para donde se mueve la columna
+            if (direccion == ConsoleKey.Home)
+            {
+                dE = -1;
+                dM = -1;
+            }
+            else if (direccion == ConsoleKey.PageUp)
+            {
+                dE = -1;
+                dM = 1;
+            }
+            else if (direccion == ConsoleKey.End)
+            {
+                dE = 1;
+                dM = -1;
+            }
+            else if (direccion == ConsoleKey.PageDown)
+            {
+                dE = 1;
+                dM = 1;
+            }
+            else
+            {
+                return false;//no presiono ninguna de las 4 teclas
+            }
+
+            e2 = e1 + dE;//la casilla de al lado en esa diagonal
+            m2 = m1 + dM;
+            return DentroDelTablero(e2, m2);//para confirmar que si este la posicion en el tablero
+        }
+        static void QuitarResaltadas()//deja todas las casillas sin pintar de verde
+        {
+            for (int e = 0; e < 8; e++)
+            {
+                for (int m = 0; m < 8; m++)
+                {
+                    resaltadas[e, m] = false;
+                }
+            }
         }
         static bool MoverFicha()//mueve la fichita y revisa si llego a la otra fila para convertirse en dama
         {

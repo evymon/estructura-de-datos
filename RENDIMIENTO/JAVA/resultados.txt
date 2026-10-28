@@ -1,0 +1,157 @@
+PRUEBAS DE RENDIMIENTO
+Lenguaje: Java
+Limite por prueba: 60 segundos
+==============================================
+
+Metodo: Burbuja
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.004413 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.002542 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000047 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.210683 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.050295 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000514 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 1.586560 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 10000 | Tipo: Inverso | Tiempo: 1.242208 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.001153 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 29.93%
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100000 | Tipo: Inverso | Tiempo: 42.556108 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.000706 s
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 0.42%
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 0.88%
+Lenguaje: Java | Metodo: Burbuja | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.000925 s
+
+Metodo: Insercion
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000188 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000251 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000013 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.006038 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.003928 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000058 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.079116 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.131551 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.000537 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 1.353722 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100000 | Tipo: Inverso | Tiempo: 2.934700 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.003879 s
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 73.35%
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 23.13%
+Lenguaje: Java | Metodo: Insercion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.046782 s
+
+Metodo: Seleccion
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000325 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000201 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000112 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.004840 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.003157 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.004629 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.171396 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.191922 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.198374 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 15.612446 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100000 | Tipo: Inverso | Tiempo: 15.536140 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 14.938538 s
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: mas de 60 s | Se detuvo al 2.01%
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 5.02%
+Lenguaje: Java | Metodo: Seleccion | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 2.38%
+
+Metodo: Quick Sort
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.001256 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000466 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000225 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.001191 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.004727 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.003431 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.009162 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.067079 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.076775 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.036292 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 5.951477 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 8.505875 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.236138 s
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: mas de 60 s | Se detuvo al 5.44%
+Lenguaje: Java | Metodo: Quick Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: mas de 60 s | Se detuvo al 4.67%
+
+Metodo: Merge Sort
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000287 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000191 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000047 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000417 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000268 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000370 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.003280 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.002987 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.003700 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.045124 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.016946 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.019160 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.303641 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.182569 s
+Lenguaje: Java | Metodo: Merge Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.159091 s
+
+Metodo: Heap Sort
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000204 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000209 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000051 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.001006 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000891 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000408 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.004011 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.003642 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.003027 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.026384 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.017953 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.016274 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.297710 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.150779 s
+Lenguaje: Java | Metodo: Heap Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.219887 s
+
+Metodo: Shell Sort
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000116 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000053 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000064 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000966 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000831 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000654 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.007063 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.003554 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.002164 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.033761 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.008551 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.005090 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.271557 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.056683 s
+Lenguaje: Java | Metodo: Shell Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.050871 s
+
+Metodo: Bucket Sort
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000734 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000121 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000207 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000777 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.002037 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000967 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.010220 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.010875 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.002475 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.059420 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.020464 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.019423 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.426368 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.222198 s
+Lenguaje: Java | Metodo: Bucket Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.163630 s
+
+Metodo: Radix Sort
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100 | Tipo: Aleatorio | Tiempo: 0.000086 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100 | Tipo: Inverso | Tiempo: 0.000059 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100 | Tipo: Ordenado | Tiempo: 0.000061 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Aleatorio | Tiempo: 0.000654 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Inverso | Tiempo: 0.000513 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000 | Tipo: Ordenado | Tiempo: 0.000610 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Aleatorio | Tiempo: 0.005021 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Inverso | Tiempo: 0.001801 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 10000 | Tipo: Ordenado | Tiempo: 0.002947 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Aleatorio | Tiempo: 0.013415 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Inverso | Tiempo: 0.018593 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 100000 | Tipo: Ordenado | Tiempo: 0.021656 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Aleatorio | Tiempo: 0.112890 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Inverso | Tiempo: 0.131186 s
+Lenguaje: Java | Metodo: Radix Sort | Tamaño: 1000000 | Tipo: Ordenado | Tiempo: 0.114481 s
